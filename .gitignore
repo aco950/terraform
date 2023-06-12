@@ -1,0 +1,11 @@
+#
+# .gitignore for Terraform-related repository.
+#
+
+*.backup
+*.bak
+*.log
+*.terraform*
+*.tfstate
+*.txt
+
