@@ -1,12 +1,14 @@
 # Declare variables here, then use them in terraform.tfvars.
+
 variable "service_name" {
-	type = string
+    type = string
 }
 
 variable "vm_count" {
-	type = number
+    type = number
 }
 
 variable "vm_pool" {
-	type = string
+    type = string
 }
+
