@@ -2,6 +2,7 @@
 #
 
 terraform init
+exit_status="$?"
 
 if [ "$exit_status" -eq 0 ]; then
     terraform plan

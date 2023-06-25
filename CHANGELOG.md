@@ -1,10 +1,20 @@
+# [2.0.0] (tbd)
+
+### Changed
+
+- Renamed `consul` folder to `consul-server` for clarity. Updated 
+  related *.tf files.
+
+- Renamed `nomad` folder to `nomad-server` for clarity. Updated related 
+  *.tf files.
+
 # [1.1.1] (June 24, 2023)
 
 ### Fixed
 
 - Cleaned up spacing for consistency.
 - Fixed syntax errors in run.sh scripts 
-  (`consul/run.sh` and `nomad/run.sh`)
+  (`consul/run.sh` and `nomad/run.sh`).
 
 # [1.1.0] (June 19, 2023)
 
@@ -22,6 +32,7 @@
 
 - Initial commit.
 
+[2.0.0]: https://github.com/aco950/terraform/releases/tag/v2.0.0
 [1.1.1]: https://github.com/aco950/terraform/releases/tag/v1.1.1
 [1.1.0]: https://github.com/aco950/terraform/releases/tag/v1.1.0
 [1.0.1]: https://github.com/aco950/terraform/releases/tag/v1.0.1

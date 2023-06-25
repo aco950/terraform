@@ -2,7 +2,7 @@ resource "libvirt_volume" "root_vol" {
     count  = var.vm_count
     name   = "root_vol_${var.service_name}-${count.index + 1}.qcow2"
     pool   = var.vm_pool
-    source = "/data/templates/${var.service_name}/${var.service_name}.qcow2"
+    source = "/data/templates/${var.service_name}/${var.vm_source}.qcow2"
     format = "qcow2"
 }
 
@@ -31,7 +31,7 @@ resource "libvirt_cloudinit_disk" "commoninit" {
     pool      = var.vm_pool
 }
 
-resource "libvirt_domain" "consul" {
+resource "libvirt_domain" "consul-server" {
     count     = var.vm_count
     name      = "${var.service_name}-${count.index + 1}"
     memory    = "1024"

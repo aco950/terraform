@@ -12,3 +12,8 @@ variable "vm_pool" {
     type = string
 }
 
+variable "vm_source" {
+    type = string
+}
+
+
