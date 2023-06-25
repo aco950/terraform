@@ -1,3 +1,9 @@
+# [2.1.0] (June 25, 2023)
+
+# Added 
+
+- 'dns-nameservers' in `nomad-server/meta_data.cfg`.
+
 # [2.0.1] (June 25, 2023)
 
 ### Fixed
@@ -38,6 +44,7 @@
 
 - Initial commit.
 
+[2.1.0]: https://github.com/aco950/terraform/releases/tag/v2.1.0
 [2.0.1]: https://github.com/aco950/terraform/releases/tag/v2.0.1
 [2.0.0]: https://github.com/aco950/terraform/releases/tag/v2.0.0
 [1.1.1]: https://github.com/aco950/terraform/releases/tag/v1.1.1
