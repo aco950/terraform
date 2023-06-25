@@ -1,4 +1,10 @@
-# [2.0.0] (tbd)
+# [2.0.1] (June 25, 2023)
+
+### Fixed
+
+- Corrected type-o in `CHANGELOG.md`.
+
+# [2.0.0] (June 25, 2023)
 
 ### Changed
 
@@ -32,6 +38,7 @@
 
 - Initial commit.
 
+[2.0.1]: https://github.com/aco950/terraform/releases/tag/v2.0.1
 [2.0.0]: https://github.com/aco950/terraform/releases/tag/v2.0.0
 [1.1.1]: https://github.com/aco950/terraform/releases/tag/v1.1.1
 [1.1.0]: https://github.com/aco950/terraform/releases/tag/v1.1.0
